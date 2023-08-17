@@ -6,7 +6,7 @@
         "character": "Spirit",
         "dialogue": "Welcome! Where would you like to search?",
         "options": {
-           "1": "Village Market Square",
+          "1": "Village Market Square",
           "2": "Forest",
           "3": "Desert",
           "4": "Mountain",

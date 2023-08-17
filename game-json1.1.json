@@ -1,10 +1,10 @@
 {
   "Market_Square": {
-    "description": "You are at the village market square. You see a map that guides you and follow it in a sequential order. Stay alert, there's danger ahead!",
+    "description": "You are at the village market square. You see a map that guides you and follow it in a required order. Stay alert, there's danger ahead!",
     "interactions": {
       "1": {
         "character": "Spirit",
-        "dialogue": "Welcome, Koko! Where would you like to search?",
+        "dialogue": "Welcome! Where would you like to search?",
         "options": {
           "1": "Palace",
           "2": "Forest",
@@ -17,11 +17,11 @@
     }
   },
   "Palace": {
-    "description": "You have reached the palace",
+    "description": "The palace ghost lurks around,walls hold secret",
     "interactions": {
       "1": {
         "character": "Spirit",
-        "dialogue": "Welcome, Koko! Where would you like to search?",
+        "dialogue": "Welcome! Where would you like to search?",
         "options": {
           "1": "Kitchen(sandwiches)",
           "2": "Kings bedroom",
@@ -32,7 +32,7 @@
     }
   },
   "Forest": {
-    "description": "You have arrived in the forest",
+    "description": "Welcome to the forest!",
     "interactions": {
       "1": {
         "character": "Spirit",
@@ -53,7 +53,7 @@
     "interactions": {
       "1": {
         "character": "Spirit",
-        "dialogue": "Welcome, Koko. If you help me find the Ekomo treasure, I'll reward you handsomely.",
+        "dialogue": "Welcome! If you help me find the Ekomo treasure, I'll reward you handsomely.",
         "options": {
           "1": "Tunnels",
           "2": "River bank",
@@ -68,7 +68,7 @@
     "interactions": {
       "1": {
         "character": "Spirit",
-        "dialogue": "Greetings, Koko. Beware of spiders! If you search well, you'll find hidden money to access the chalet.",
+        "dialogue": "Beware of spiders! If you search well, you'll find hidden money to access the Rustic Tent Refuge",
         "options": {
           "1": "Cave",
           "2": "Mine site",
@@ -79,11 +79,221 @@
     }
   },
   "Lake": {
-    "description": "You have entered a dark and mysterious cave.",
+    "description": "You have reaced the lake... a place where shimmering waters meet the land. ",
     "interactions": {
       "1": {
         "character": "Spirit",
-        "dialogue": "Welcome, Koko. I hold the secrets of this village. You are closer to the treasure but beware of snakes!",
+        "dialogue": "I hold the secrets of this village. You are closer to the treasure but beware of snakes!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Cave": {
+    "description": "You entered a dark and mysterious cave!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "You might be closer to the treasure but beware of snakes! Move quietly to avoid detection",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Beach": {
+    "description": "You have reached the beach. Breathe in the salty breeze, feel the warmth of the sun on your skin!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Beware, the currents hold both guidance and danger!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Church": {
+    "description": "You have reached the Church!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Walk this sacred path with reverence, for the past whispers its wisdom to find the treasure",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Rustic Tent Refuge": {
+    "description": "You have reached the Rustic Tent Refuge",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Rest and recharge, for the wilderness, holds both adventure and tranquility!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Farm Stand": {
+    "description": "You have reached the Farm Stand!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Satisfy your hunger, but find the treasure to get the reward!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Halls of Mirror": {
+    "description": "You have reached the Halls of Mirror!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Make a wise choice because illusions might lead you astray.",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Garden": {
+    "description": "You have reached the Halls of Mirror!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "To hep with your search, look for the most rare flower.",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Herbalist's Hut": {
+    "description": "You have reached the Herbalist's Hut!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Purchase healing items, learn about local plants, concoct potions for the journey!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Blacksmith's Forge": {
+    "description": "You have reached the  Blacksmith's Forge!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Purchase weapons, armor, or tools to defend yourself!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Mamlambo Creature": {
+    "description": "You have encoutered the Mamlambo Creature!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Congratulations, you found the Ekomo treasure!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Dungeon ": {
+    "description": "You have reached the Dungeon",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Oh no! You met the Goblins. You have been ambushed and attacked. You lose!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Abandoned Crypt": {
+    "description": "You have reached the Abandoned Crypt",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "There are traps, restless ghost and supernatural encounters here!",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Graveyard": {
+    "description": "You have reached the Graveyard!",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "Explore the past, but go with caution, as lost spirits might lead you astray.",
+        "options": {
+          "1": "A sunk ship",
+          "2": "Underwater cave",
+          "3": "Mamlambo Creature",
+          "4": "Leave"
+        }
+      }
+    }
+  },
+  "Ene's Corner": {
+    "description": "You have reached Ene's Corner",
+    "interactions": {
+      "1": {
+        "character": "Spirit",
+        "dialogue": "You are not authorised to be here! ",
         "options": {
           "1": "A sunk ship",
           "2": "Underwater cave",
